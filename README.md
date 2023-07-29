@@ -6,4 +6,5 @@
  * 默认是支持V3
  * 支持chrome v88及以上
  * 使用低版本的请使用manifest-v2.json
+ * 对不同版本的azkaban如有问题微调即可
 
