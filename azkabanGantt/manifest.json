@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "azkabanGantt",
+	"version": "0.0.1",
+	"description": "可以查看计划执行的甘特图，用于查看执行时间是否重叠",
+	"author": "huaichao569",
+	"icons": {
+		"32": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [ "https://www.self_azkaban.com/*" ],
+			"js": [ "jquery-3.7.0.min.js", "content-script.js" ]
+		}
+	]
+}
